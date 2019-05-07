@@ -157,4 +157,59 @@ emerge from self-organizing teams.
 to become more effective, then tunes and adjusts
 its behavior accordingly.
 
-## eXtreme Programming 
+## eXtreme Programming
+
+Extreme programming is all about customer satisfaction, and achieves this by providing the software you need, as you need it. Extreme programming empowers developers to confidently respond to changing customer requirements, even late in the life cycle.
+
+Extreme Programming emphasizes teamwork. Managers, customers, and developers are all equal partners in a collaborative team. Extreme Programming implements a simple, yet effective environment enabling teams to become highly productive. The team self-organizes around the problem to solve it as efficiently as possible. 
+
+Extreme Programming improves a software project in five essential ways; communication, simplicity, feedback, respect, and courage. Extreme Programmers constantly communicate with their customers and fellow programmers. They keep their design simple and clean. They get feedback by testing their software starting on day one. They deliver the system to the customers as early as possible and implement changes as suggested. Every small success deepens their respect for the unique contributions of each and every team member. With this foundation Extreme Programmers are able to courageously respond to changing requirements and technology.
+
+### Rules of eXtreme Programming
+
+**Planning**
+
+- User Stories User stories are written.
+- Release planning creates the release schedule.
+- Make frequent small releases.
+- The project is divided into iterations.
+- Iteration planning starts each iteration.
+
+**Managing**
+
+- Give the team a dedicated open work space.
+- Set a sustainable pace.
+- A stand up meeting starts each day.
+- The Project Velocity is measured.
+- Move people around.
+- Fix XP when it breaks.
+
+**Designing**
+
+- Simplicity
+- Choose a system metaphor.
+- User CRC cards for design sessions.
+- Create spike solutions to reduce risk.
+- No functionality is added early.
+- Refactor whenever and wherever possible.
+
+**Coding**
+
+- The customer is always availible.
+- Code must be written to agreed standards.
+- Code the unit test first.
+- All production code is pair programmed.
+- Only one pair integrates code at the time.
+- Integrate often.
+- Set up a dedicated integration computer.
+- Use collective ownsership.
+
+**Testing**
+
+- All code must have unit tests.
+- All code must pass all tests before it can be released.
+- When a bug is found tests are created.
+- Acceptance tests are run often and the score is published.
+
+### XP Flow
+![xp-flow](/res/xp-flow.png)
