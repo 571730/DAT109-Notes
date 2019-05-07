@@ -213,3 +213,49 @@ Extreme Programming improves a software project in five essential ways; communic
 
 ### XP Flow
 ![xp-flow](/res/xp-flow.png)
+
+## SCRUM
+Scrum is a framework within which people can address complex problems, while productively and creatively delivering products of the highest quality.
+
+Scrum is:
+- Lightweight
+- Simple to understand
+- Difficult to master
+
+Scrum is not a process, technique, or definitive method. Rather, it is a framework within which you can employ various processes and techniques.
+
+### Scrum values
+
+When the values of commitments, courage, focus, openness and respect are embodied and lived by the Scrum team, the Scrum pillars of transparency, inspection, and adaptation come to life and build trust for everyone. The Scrum team members learn and explore those values as they work with Scrum events, roles and artifacts.
+
+### The Scrum Team
+
+The Scrum team consists of a Product Owner, the Developments Team, and a Scrum Master. The teams are self-organized and cross-functional. Self-organizing teams choose how best to accomplish their work, rather than being directed by others outside the team. Cross-functional teams have all competencies needed to accomplish the work without depending on others outside the team.
+
+Scrum Teams deliver products iteratively and incremantally, maximizing opportunites for feedback. Incremental deliveries of "Done" product ensure a potentially useful version of the product is always awalible.
+
+### The Product Owner
+
+The Product Owner is responsible for maximizing the value of the product resulting from the work of the development team.
+
+The Product Owner is the sole person responsible for managing the Product Backlog. This includes tasks such as:
+- Clearly expressing Product Backlog items
+- Ordering the items in the Product Backlog to best achieve goals and missions
+- Optimizing the value of the work the development team performs
+- Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next
+- Ensuring the Development Team understands items in the Product Backlog to the level needed
+
+### The Development Team
+
+Consists of professionals who do the work delivering a potentially releasable increment of "Done" product at the end of each Sprint.
+
+Development Teams have the following characteristics:
+- They are self-organizing. No one tells them how to turn the Product Backlog into Increments of potentially releasable functionality.
+- They are cross-functional, with all the skills as a team necessary to create a product Increment.
+- Scrum recognizes no titles for the members, regardless of the work being performed by the person.
+- There are no sub-teams.
+- Individual team memebrs may have spezialized skills or areas of focus, but accountability belongs to the team as a whole.
+
+The Development Team should have a size of about 3-9.
+
+
