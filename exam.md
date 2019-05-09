@@ -258,4 +258,91 @@ Development Teams have the following characteristics:
 
 The Development Team should have a size of about 3-9.
 
+### The Scrum Master
+
+The Scrum Master is responsible for promoting and supporting Scrum as defined in the Scrum guide. Scrum Masters do this by helping everyone understand Scrum theory, practices, rules, and values.
+
+The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps those outside the Scrum Team understand which of their interactions with the Scrum Team are helpful and which aren't. The Scrum Master helps everyone change these interactions to maximize the value created by the Scrum Team.
+
+The Scrum master is in service to the Product Owner, the Development Team and the Organization.
+
+The Scrum master serves the Product Manager by for example:
+- Ensuring that goals, scope, and product domain are understood bye everyone on the Scrum Team as well as possible;
+- Finding techniques for effective Product Backlog managment;
+- Helping the Scrum Team understand the need for clear and concise Product Backlog items;
+- Understanding product planning in an empirical environment;
+- Ensuring the Product Owner knows how to arrange the Product Backlog to maximize value;
+- Undertanding and pricticing agility;
+- Facilitating Scrum events as requested or needed.
+
+The Scrum Master serves the Development Team is several ways, including:
+- Coaching the Development Team in self-organization and cross-functionality;
+- Helping the Development Team to create high-value products;
+- Removing impediments to the Development Team's progress;
+- Facilitating Scrum events as requested or needed;
+- Coaching the Development Team in organizational environments in which Scrum is not fully yet adopted and understood.
+
+The Scrum Master serves the organization on several ways, including:
+- Leading and coaching the organization in its Scrum adoptaion;
+- Planning Scrum implementations within the organization;
+- Helping employees and stakeholders understand and enact Scrum and empirical product development;
+- Causing change that increases the productivity of the Scrum Team;
+- Working with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization.
+
+### Scrum  Events
+
+Scrum has Events to create regualrity. The Events happens at a set regularity and have a predefined duration. The duration of an Events cannot be changed.
+
+### The Sprint
+
+The heart of Scrum is a Sprint, a time-box of one month or less during which a "Done", useable and potentially releasable product Increment is created.
+
+Sprints contain and consist of the Sprint Planning, Daily Scrums, the development work, and the SPrint Retrospective.
+
+During the Sprint:
+- No changes are made that would endanger the Sprint Goal;
+- Quality goals do not decrease;
+- Scope may be clarified and re-negotiated between the Product Owner and Development Team as more is learned.
+
+Each Sprint has a goal of what is to be buit, a design and flexible plan that will guide building it, the work, and the resultant product increment.
+
+### Daily Scrum
+
+This is a 15 minute time-boxed event where the Development Team reflect on what needs to be done in the next 24 hours. This is a daily event.
+
+### Sprint Review
+
+This is held at the end of each Sprint to inspect the Increment that has been made during this Sprint and make needed changes to the Product Backlog. This should be a meeting of no more than 4 hours for a month-long Sprint. It consists mostly of the Development Team presenting the Increment made during the Sprint, and the stakeholder providing feedback.
+
+The result of the Sprint Review is a revised Product Backlog that defines the probable Product Backlog items for the next Sprint.
+
+### Sprint Retrospective
+
+The Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint.
+
+It occurs after the Sprint Review, but before the next Sprint Planning. The meeting should be at most 3 hours long.
+
+The purpose of the Sprint Retrospective is to:
+- Inspect how the last Sprint went with regards to people, relationships, process, and tools;
+- Identify and order the major items that went well and potential improvements;
+- Create a plan for implementing improvements to the way the Scrum Team does its work.
+
+### Scrum Artifacts
+
+Scrum’s artifacts represent work or value to provide transparency and opportunities for inspection and adaptation. Artifacts defined by Scrum are specifically designed to maximize transparency of key information so that everybody has the same understanding of the artifact.
+
+### Product Backlog
+
+The Product Backlog is an ordered list of everything that is known to be needed in the product. It is the single source of requirements for any changes to be made to the product. The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering.
+
+A Product Backlog is never complete. The earliest development of it lays out the initially known and best-understood requirements. The Product Backlog evolves as the product and the environment in which it will be used evolves. The Product Backlog is dynamic; it constantly changes to identify what the product needs to be appropriate, competitive, and useful. If a product exists, its Product Backlog also exists.
+
+### Sprint Backlog
+
+Essentially the same as a Product Backlog, except it only contains items that are to be completed during the current Sprint. The Sprint Backlog should contains items that will result in a new "Done" Increment of the product when completed.
+
+### Increment
+
+The Increment is the sum of all the Product Backlog items completed during a Sprint and the value of the increments of all previous Sprints. At the end of a Sprint, the new Increment must be "Done," which means it must be in useable condition and meet the Scrum Team’s definition of "Done". An increment is a body of inspectable, done work that supports empiricism at the end of the Sprint. The increment is a step toward a vision or goal. The increment must be in useable condition regardless of whether the Product Owner decides to release it.
+
 
