@@ -345,4 +345,50 @@ Essentially the same as a Product Backlog, except it only contains items that ar
 
 The Increment is the sum of all the Product Backlog items completed during a Sprint and the value of the increments of all previous Sprints. At the end of a Sprint, the new Increment must be "Done," which means it must be in useable condition and meet the Scrum Team’s definition of "Done". An increment is a body of inspectable, done work that supports empiricism at the end of the Sprint. The increment is a step toward a vision or goal. The increment must be in useable condition regardless of whether the Product Owner decides to release it.
 
+## UML
 
+Unified Modeling Language (UML) is a standardized general-purpose modeling language in the field of object-oriented software engineering. UML includes a set of graphic notation techniques to create visual models of object-oriented software systems.
+
+UML diagrams represent two different views of a system model:
+
+### Static (or structural) view
+
+This view emphasizes the static structure of the system using objects, attributes, operations, and relationships. Ex: Class diagram, Composite Structure diagram.
+
+### Dynamic (or behavioral) view
+
+This view emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the internal states of objects. Ex: Sequence diagram, Activity diagram, State Machine diagram.
+
+### Class diagram
+
+Describes the structure of a system by showing the system's classes, their attributes, and the relationships among the classes.
+
+![Class Diagram](res/classDiagram.png)
+
+### Component diagram
+
+Describes how a software system is split-up into components and shows the dependencies among thesecomponents.
+
+
+![Component Diagram](res/componentDiagram.png)
+
+### Activity diagram
+
+Describes the business and operational step-by-step workflows of components in a system. An activity diagram shows the overall flow of control.
+
+
+![Activity Diagram](res/activityDiagram.png)
+
+### State Machine diagram
+
+Describes the states and state transitions of the system.
+
+
+![State Machine Diagram](res/stateDiagram.png)
+
+### Use case diagram
+
+Describes the functionality provided by a system in terms of actors, their goals represented as use cases, and any dependencies among those use cases.
+
+
+![Use Case Diagram](res/useCaseDiagram.png)
