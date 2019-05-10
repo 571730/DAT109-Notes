@@ -437,4 +437,32 @@ In general, a class **B** should be responsible for creating instances of class 
 
 The indirection pattern supports low coupling and reuse potential between two elements by assigning the responsibility of mediation between them to an intermediate object. An example of this is the introduction of a controller component for mediation between data and its representation in the model-view control pattern. This ensures that coupling between them remains low.
 
+### Information expert
 
+Information expert is a principle used to determine where to delegate responsibilities such as methods, computed fields, and so on.
+
+Using the principle of information expert, a general approach to assigning responsibilities is to look at a given responsibility, determine the information needed to fulfill it, and then determine where the information is stored.
+
+This will lead to placing the responsibility on the class with the most information required to fulfill it.
+
+### High cohesion
+
+High cohesion is an evaluative pattern that attemps to keep objects appropriately focused, manageable and understandable. High cohesion is generally used in support of low coupling. High cohesion means that the responsibilites of a given element are strongly related and highly focused. Breaking programs into classes and subsystems is an example of activities that increase the cohesive properties of a system. Alternatively, low cohesion is a situation in which a given element has too many unrelated responsibilities. Elements with low cohesion often suffer from being hard to comprehend, reuse, maintain and change.
+
+### Low coupling
+
+Coupling is a measure of how strongly one element is connected to, has knowledge of, or relies on other elements. Low coupling is an evaluative pattern that dictates how to assign responsibilites to support:
+- lower dependency between classe,
+- change in one class having lower impact on other classes,
+- higher reuse potential
+
+### Polymorphism
+
+According to the polymorphism principle, responsibility for defining the variation of behaviours based on type is assigned to the type for which this variation happens. This is achieved using polymorphic operations. The user of the type should use polymorphic operations instead of explicit branching based on type.
+
+### Protected variations
+The protected variations pattern protects elements from the variations on other elements by wrapping the focus of instability with an interface and using polymorphism to create various implementations of this interface.
+
+### Pure fabrication
+
+A pure fabrication is a class that does not represent a concept in the problem domain, specially made up to achieve low coupling, high cohesion, and the reuse potential thereof derived (when a solution presented by the information expert pattern does not). This kind of class is called a "service" in domain-driven design.
