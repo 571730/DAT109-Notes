@@ -408,4 +408,33 @@ Shows how objects communicate with each other in terms of a sequence of messages
 
 ![Sequence Diagram](res/sequenceDiagram.png)
 
+## GRASP
+
+General Responsibility Assignment Software Patterns (or Principles), abbreviated GRASP, consists of guidelines for assigning responsibility to classes and objects in object-oriented design. It is not related to the SOLID design principle.
+
+The different patterns and principles in GRASP are controller, creator, indirection, information expert, high cohesion, low coupling, polymorphism, protected variations, and pure fabrication. All these patterns answer some software problems, and these problems are common to almost every software development project. These techniques have not been invented to create new ways of working, but to better document and standardize old, tried-and-tested programming principles in object-oriented design.
+
+### Controller
+
+The controller pattern assigns the responsibility of dealing with system events to a non-UI class that represents the overall system or a use case scenario. A controller object is a non-user interface object responsible for receving or handling s system event.
+
+A use case controller should be used to deal with *all* system events of a use case, and may be used for more than one use case. For instance, for the use case *Create User* and *Delete User*, one can have a single class called *UserController*, instead of two seperate use case controllers.
+
+The controller is defined as the first object beyond the UI layer that receives and coordinates ("controls") a system operation. The controller should delegate the work that needs to be done to other objects; it coordinates or controls the activity. It should not do much work itself.
+
+### Creator
+
+Creation of objects is one of the most common activities in an object-oriented system. Which class is responsible for creating objects is fundemental property of the relationship between objects of particular classes.
+
+In general, a class **B** should be responsible for creating instances of class **A** if one, or preferably more, of the following apply:
+
+- Instances of **B** contain or compositly aggregate instances of **A**
+- Instances of **B** record instances of **A** 
+- Instances of **B** closely use instances of **A**
+- Instances of **B** have the initializing information for instances of **A** and pass it on creation
+
+### Indirection
+
+The indirection pattern supports low coupling and reuse potential between two elements by assigning the responsibility of mediation between them to an intermediate object. An example of this is the introduction of a controller component for mediation between data and its representation in the model-view control pattern. This ensures that coupling between them remains low.
+
 
