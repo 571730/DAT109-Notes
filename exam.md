@@ -392,3 +392,20 @@ Describes the functionality provided by a system in terms of actors, their goals
 
 
 ![Use Case Diagram](res/useCaseDiagram.png)
+
+
+### Communication diagrams
+
+Shows the interactions between objects or parts in terms of sequenced messages. They represent a combination of information taken from Class, Sequence, and Use Case Diagrams describing both the static structure and dynamic behaviour of a system.
+
+
+![Communication Diagram](res/communicationDiagram.png)
+
+### Sequence diagram
+
+Shows how objects communicate with each other in terms of a sequence of messages. Also indicates the lifespans of objects relative to those messages.
+
+
+![Sequence Diagram](res/sequenceDiagram.png)
+
+
