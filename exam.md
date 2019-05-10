@@ -466,3 +466,34 @@ The protected variations pattern protects elements from the variations on other 
 ### Pure fabrication
 
 A pure fabrication is a class that does not represent a concept in the problem domain, specially made up to achieve low coupling, high cohesion, and the reuse potential thereof derived (when a solution presented by the information expert pattern does not). This kind of class is called a "service" in domain-driven design.
+
+
+## SOLID
+
+In object-oriented computer programming, SOLID is mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable. 
+
+### Single responsibility principle
+
+A class should have only a single responsibility, that is, only changes to one part of the softwares specification should be able to affect the specification of the class.
+
+### Open-closed principle
+
+Software entities should be open for extension, but closed for modification.
+
+### Liskov substitution principle
+
+Objects in a program should be replacable with instances of their subtypes without altering the correctness of that program.
+
+### Interface segregation principle
+
+Many client-specific interfaces are better than one general-purpose interface.
+
+### Dependency inversion principle
+
+One should depend upon abstraction, not concretions.
+
+## KISS
+
+KISS, an acronym for "keep it simple, stupid", is a design principle noted by the U.S. Navy in 1960. The KISS principle states that most systems work best if kept simple rather than complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.
+
+
