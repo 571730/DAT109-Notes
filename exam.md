@@ -496,4 +496,46 @@ One should depend upon abstraction, not concretions.
 
 KISS, an acronym for "keep it simple, stupid", is a design principle noted by the U.S. Navy in 1960. The KISS principle states that most systems work best if kept simple rather than complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.
 
+# Risk Managment
+
+## Boehm's Risk-Managment Process
+
+![Boehm's Risk](/res/boehmRisk.png)
+
+The risk-identification process entails listing all conceivable risk to the project. Creative methods, e.g. brainstorming, and analytical methods, e.g. checklist, can be used here.
+The risk analysis evaluates the risks. This involves determining the probability of occurence and the possible negative effects for each risk.
+The risk-prioritazation stage is used to specify the sequence in which the risks are to be dealt with. To this end, the losses caused when risk events occur are evaluated.
+The process of risk-managment planning involves specifying measures intented to reduce the probability of risk events occuring or to diminish the negative impacts following the occurence of the risk event.
+Risk resolution is the step of the process where the defined measures are carried out.
+Risk monitoring keeps track of the efficiency of the measures implemented. In order to do this eficiently, risk-monitoring metrics should be specified in the risk-managment planning stage and the related data should be captured during the risk-resolution process.
+
+## Wallmüller's Risk-Management Process
+
+![Wallmuller risk](/res/wallRisk.png)
+
+Unlike Boehm's process, this is a sequence-oriented process. It consists of a risk-planning part (steps 1-8) and a risk-control part (steps 9-11). The risk-planning part starts in the project-preparation and planning phase before the actual projects kick-off. The process runs full circle at least once in a project phase. This is also referred to as continous risk managment.
+
+Many activities are the same as in Boehm's process. A significant new component is the assignment of different risk-managment roles. The project manager determines the general risk-managment strategy, including the appointsment of the risk manager and assignment of risk-managment responsibilities. The project manager works with the risk manager and the project team in order to identify risks and define probabilities and impacts. He or she plans and approves the implementation of finacial, time-related and technical preventive and precationary measures, monitors and establishes reporting procedures.
+
+The project team identifies risks within its area of responsibility, appraises probabilities and impacts, prioritize risks, identifies preventive and precautionary measures, reports on the status of risks, evaluates the efficiency of the preventive and precautionary measures and implementas, if necessary, the precautionary measures.
+
+The risk manager supports the project team in the risk-planning and risk-control processes, implements the risk-management plan, organizes and administrates risk-status reports, evaluates new risks, checks the effectiveness of current risk plans and of the implementation of precautionary measures.
+
+## Kontio's Risk-Management Process (Riskit)
+
+Riskit is a goal-oriented and stakeholder-oriented style of risk management [Kont97]. Riskit distinguishes between two phases: the initialization phase and the risk-analysis cycle. The latter has many parallels with Boehm's basic process and Wallmüller's risk-management process. This phase will thus not be described in detail here. In the initialization phase the foundations upon which the risk-management process is performed are laid.
+
+![Kontio Risk](/res/kontioRisk.png)
+
+The aim of the first process step, "Risk-management mandate definition", is to establish a risk-management procedure for the project in consultation with all parties involved (e.g. project manager, risk manager and project team) (Figure 5). The risk-management process must be adjusted to the complexity and riskiness of the project. In the case of small projects, where no major risks are to be expected, it usually suffices to discuss risks at the project- management meetings from time to time. In complex, high-risk projects (e.g. when new development methods are used), a formal risk-management process, supported by well- developed methods, is required. The results of this first process step are:
+- risk-management targets, methods and tools;
+- a defined time frame for the analysis cycles;
+- a definition of risk categories whick are not to be considered(e.g. marketing risks);
+- risk-managment roles and tasks;
+- communication mechanisms and reports; and
+- project stakeholders and their expectations vis-à-vis the project results.
+
+In particular, it is the consideration given to stakeholders that distinguishes Riskit from other risk-management methods. This concept is based on the idea that different stakeholders have different goals and expectations for the project. Consequently, the second process step, "Goal review", examines the project targets and formulates them in as measurable a form as possible. It also analyses which goals are how important for which stakeholder.
+Goals and stakeholders place a crucial role in the "Risk analysis" step. Each risk is analyzed to determine its impacts on the project goals. These impacts are described in as measurable a form as possible (e.g. project delayed by three months = budget exceeded by $ 50,000). Since the "Goal review" step defines in advance which goal is important for which stakeholder, it is then possible to estimate who will incur the largest loss if a risk event occurs. These analyses are also of benefit when specifying measures.
+
 
