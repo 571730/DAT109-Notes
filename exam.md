@@ -538,4 +538,27 @@ The aim of the first process step, "Risk-management mandate definition", is to e
 In particular, it is the consideration given to stakeholders that distinguishes Riskit from other risk-management methods. This concept is based on the idea that different stakeholders have different goals and expectations for the project. Consequently, the second process step, "Goal review", examines the project targets and formulates them in as measurable a form as possible. It also analyses which goals are how important for which stakeholder.
 Goals and stakeholders place a crucial role in the "Risk analysis" step. Each risk is analyzed to determine its impacts on the project goals. These impacts are described in as measurable a form as possible (e.g. project delayed by three months = budget exceeded by $ 50,000). Since the "Goal review" step defines in advance which goal is important for which stakeholder, it is then possible to estimate who will incur the largest loss if a risk event occurs. These analyses are also of benefit when specifying measures.
 
+# IFML
+![IFML syntax](/res/ifml1.png)
+**Example of user interface (top) and corresponding IFML model (bottom). The user selects an item in the list and displays its details in the same view container**
+
+![IMFL 2](/res/ifml2.png)
+**Example of user interface (left) and corresponding IMFL model (right). One top-level container comprises three view containers: one with a list of artists and of their albums, one with the details of an artist, and one with the details of an album. The latter two view containers are mutually exclusive: only one at a time is displayed.**
+
+![IMFL 3](/res/ifml3.png)
+
+
+![IMFL 4](/res/ifml4.png)
+
+# UMPLE
+## Class diagrams
+
+![UMPLE airline class](/res/umpleClass1.png)
+
+![UMPLE airline class code](/res/umpleClass2.png)
+
+## State diagram
+![UMPLE state garage door code](/res/umpleState1.png)
+
+![UMPLE state garage door](/res/umpleState2.png)
 
